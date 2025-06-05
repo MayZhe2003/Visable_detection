@@ -1,0 +1,51 @@
+/* 自定义样式 */
+:root {
+  --slidev-theme-primary: #1890ff;
+}
+
+.slidev-layout {
+  font-family: 'Inter', sans-serif;
+}
+
+h1 {
+  color: var(--slidev-theme-primary);
+}
+
+.slidev-layout.cover {
+  background-image: linear-gradient(to right bottom, #1890ff22, #1890ff11);
+}
+
+.slidev-layout.center {
+  background-image: linear-gradient(to right bottom, #1890ff11, #1890ff05);
+}
+
+.mermaid-diagram {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+code {
+  font-family: 'Fira Code', monospace;
+  border-radius: 4px;
+}
+
+pre {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.grid-cols-2 > div,
+.grid-cols-3 > div {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.grid-cols-2 > div:hover,
+.grid-cols-3 > div:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+} 
