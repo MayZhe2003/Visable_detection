@@ -52,6 +52,3 @@ npm run export
 - Cursor中的部署方法
 - 演示流程和系统功能
 
-## 自定义
-
-您可以编辑 `slides.md` 文件来修改演示内容。更多信息请参考 [Slidev 文档](https://sli.dev/)。 
